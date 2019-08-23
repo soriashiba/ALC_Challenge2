@@ -1,0 +1,37 @@
+html, body {
+/* width: 70px; */
+color: blue;
+background-color: grey;
+height: 100%;
+}
+#navbar{
+    background-color: white;
+    width: 30%;
+    padding: 0px;
+    position: absolute;
+    border: medium;
+    height: 100%;
+    float: left;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar a{
+    cursor: pointer;
+    /*text-decoration-color: black;*/
+    border: 1px, solid;
+    height: 250px;
+    /* padding-left: 20px; */
+
+}
+
+#navbar li{
+    margin: 15px 10px 10px 10px;
+}
+
+#main-doc {
+    float: right;
+    width: 60%;
+}
+ul{
+    list-style-type: none;
+}
